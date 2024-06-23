@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.split {
+    width: 50%;
+    height: 100%;
+    top: 0;
+}
+.split.left{
+    position: absolute;
+    left: 0;
+    background-color: pink;
+    background-image: url(https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-1.jpg);
+    background-size: cover;
+}
+.split.right{
+    position: absolute;
+    right: 0;
+    background-color: lightblue;
+    background-image: url(https://cdn.dxomark.com/wp-content/uploads/medias/post-165263/Samsung-Galaxy-S24-Ultra_A_featured-image-packshot-review.jpg);
+}
+h1{
+    font-size: 100px;
+    letter-spacing: 4px;
+    color: aliceblue;
+    backdrop-filter: brightness(0.5);
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    font-size: 25px;
+    border: 4px solid;
+    cursor: pointer;
+    transition: 1s background-color;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
