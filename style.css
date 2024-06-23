@@ -45,3 +45,19 @@ h1{
     background-color: white;
     color: black;
 }
+.active-left .left{
+    width: 75%;
+}
+.active-left .right{
+    width: 25%;
+}
+.active-right .left{
+    width: 25%;
+}
+.active-right .right{
+    width: 75%;
+}
+
+.left, .right {
+    transition: width 2s ease-in-out;
+}
